@@ -5,22 +5,22 @@ import { useLocation } from "react-router";
 const backgroundImages: {
   [key: string]: { [key: string]: string};
 } = {
-  '/SpaceTourismWebsite/' : {
+  '/' : {
     'desktop': '/src/assets/home/background-home-desktop.jpg', 
     'tablet': '/src/assets/home/background-home-tablet.jpg', 
     'mobile': '/src/assets/home/background-home-mobile.jpg'
   },
-  "/SpaceTourismWebsite/destination": {
+  "/destination": {
     'desktop': '/src/assets/destination/background-destination-desktop.jpg', 
     'tablet': '/src/assets/destination/background-destination-tablet.jpg', 
     'mobile': '/src/assets/destination/background-destination-mobile.jpg'
   },
-  "/SpaceTourismWebsite/crew": {
+  "/crew": {
     'desktop': '/src/assets/crew/background-crew-desktop.jpg', 
     'tablet': '/src/assets/crew/background-crew-tablet.jpg', 
     'mobile': '/src/assets/crew/background-crew-mobile.jpg'
   },
-  "/SpaceTourismWebsite/technology": {
+  "/technology": {
     'desktop':'/src/assets/technology/background-technology-desktop.jpg', 
     'tablet': '/src/assets/technology/background-technology-tablet.jpg', 
     'mobile': '/src/assets/technology/background-technology-mobile.jpg'
