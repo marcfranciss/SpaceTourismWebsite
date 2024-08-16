@@ -1,29 +1,29 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 
-// const BASE_URL = "/SpaceTourismWebsite"
+const BASE_URL = "/SpaceTourismWebsite"
 const backgroundImages: {
   [key: string]: { [key: string]: string};
 } = {
   '/' : {
-    'desktop': '/src/assets/home/background-home-desktop.jpg', 
-    'tablet': '/src/assets/home/background-home-tablet.jpg', 
-    'mobile': '/src/assets/home/background-home-mobile.jpg'
+    'desktop': BASE_URL + '/assets/home/background-home-desktop.jpg', 
+    'tablet': BASE_URL + '/assets/home/background-home-tablet.jpg', 
+    'mobile': BASE_URL + '/assets/home/background-home-mobile.jpg'
   },
   "/destination": {
-    'desktop': '/src/assets/destination/background-destination-desktop.jpg', 
-    'tablet': '/src/assets/destination/background-destination-tablet.jpg', 
-    'mobile': '/src/assets/destination/background-destination-mobile.jpg'
+    'desktop': BASE_URL + '/assets/destination/background-destination-desktop.jpg', 
+    'tablet': BASE_URL + '/assets/destination/background-destination-tablet.jpg', 
+    'mobile': BASE_URL + '/assets/destination/background-destination-mobile.jpg'
   },
   "/crew": {
-    'desktop': '/src/assets/crew/background-crew-desktop.jpg', 
-    'tablet': '/src/assets/crew/background-crew-tablet.jpg', 
-    'mobile': '/src/assets/crew/background-crew-mobile.jpg'
+    'desktop': BASE_URL + '/assets/crew/background-crew-desktop.jpg', 
+    'tablet': BASE_URL + '/assets/crew/background-crew-tablet.jpg', 
+    'mobile': BASE_URL + '/assets/crew/background-crew-mobile.jpg'
   },
   "/technology": {
-    'desktop':'/src/assets/technology/background-technology-desktop.jpg', 
-    'tablet': '/src/assets/technology/background-technology-tablet.jpg', 
-    'mobile': '/src/assets/technology/background-technology-mobile.jpg'
+    'desktop': BASE_URL + '/assets/technology/background-technology-desktop.jpg', 
+    'tablet': BASE_URL + '/assets/technology/background-technology-tablet.jpg', 
+    'mobile': BASE_URL + '/assets/technology/background-technology-mobile.jpg'
   }
 };
 
