@@ -8,7 +8,7 @@ const Home = lazy(() => import("../Pages/Home/Home"));
 const Crew = lazy(() => import("../Pages/Crew/Crew"));
 const Destination = lazy(() => import("../Pages/Destination/Destination"));
 const Technology = lazy(() => import("../Pages/Technology/Technology"));
-const BASE_URL = "/SpaceTourismWebsite/";
+// const BASE_URL = "/SpaceTourismWebsite/";
 export const router = createBrowserRouter([
   {
     path: "/",
