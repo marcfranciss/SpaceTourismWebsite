@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./home.scss";
-
+const BASE_URL = "/SpaceTourismWebsite";
 const Home = () => {
   return (
     <main id='homePage'>
@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className='image-container'>
           <div className='circle'>
-            <Link to='/destination'>
+            <Link to={BASE_URL + "/destination"}>
               <h3>EXPLORE</h3>
             </Link>
           </div>
