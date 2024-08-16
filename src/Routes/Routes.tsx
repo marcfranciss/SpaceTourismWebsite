@@ -11,7 +11,7 @@ const Technology = lazy(() => import("../Pages/Technology/Technology"));
 const BASE_URL = "/SpaceTourismWebsite/";
 export const router = createBrowserRouter([
   {
-    path: `${BASE_URL}/`,
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
