@@ -15,7 +15,7 @@ interface DestinationData {
 const Destination = () => {
   const [componentData, setComponentData] = useState<DestinationData[]>([]);
   const [display, setDisplay] = useState<number>(0);
-  const BASE_URL = "/SpaceTourismWebsite/";
+  const BASE_URL = "/SpaceTourismWebsite";
 
   /* Will set components data to fetch data*/
   useEffect(() => {

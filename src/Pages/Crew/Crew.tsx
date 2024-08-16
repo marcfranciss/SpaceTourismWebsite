@@ -15,7 +15,7 @@ interface CrewData {
 const Crew = () => {
   const [componentData, setComponentData] = useState<CrewData[]>([]);
   const [display, setDisplay] = useState<number>(0);
-  const BASE_URL = "/SpaceTourismWebsite/";
+  const BASE_URL = "/SpaceTourismWebsite";
 
   /* Will set components data to fetch data*/
   useEffect(() => {
