@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useRouteError } from "react-router-dom";
 
 const ErrorPage = () => {
@@ -20,6 +21,7 @@ const ErrorPage = () => {
         <i>{(error as { statusText?: string })?.statusText}</i>
       </p>
       <h2>{(error as { data?: string })?.data}</h2>
+      <Link to='/' />
     </div>
   );
 };
